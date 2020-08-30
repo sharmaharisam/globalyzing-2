@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+<div>
+  <br><br><br><br><br><br><br><br>
+  <h4 class="lead text-center display-5">After clicking the submit button, check your email for a link to reset your password</h4>
+</div>  
+<div class="container register-section" style="margin-top: 10vh;">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <header class="card-header">
+            <h4 class="card-title mt-2">Forgot Password</h4>
+          </header>
+          <article class="card-body">
+            <form class="" action="/forgot" method="POST">
+              <div class="form-group">
+                <label>Enter Your Registered Email address</label>
+                <input type="email" class="form-control" placeholder="" name="email">
+              </div> <!-- form-group end.// -->
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Submit </button>
+              </div> <!-- form-group// -->
+            </form>
+          </article> <!-- card-body end .// -->
+          <div class="border-top card-body text-center"> 
+            <br>
+            <br>
+            <br>
+
+          </div>
+        </div> <!-- card.// -->
+      </div> <!-- col.//-->
+  
+    </div> <!-- row.//-->
+  
+  
+  </div>
+  <!--container end.//-->
+  
+  <br><br />
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<%- include('partials/footer')  %>

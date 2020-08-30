@@ -1,0 +1,81 @@
+body {
+  background: url("/images/bg5.png") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ ;
+}
+
+/* about page : */
+
+
+.intro-text{
+  height: 20vh;
+  min-height: 390px;
+
+}
+/* about-people section */
+#about-people {
+  padding: 0%  22% 7%;
+}
+
+.member-img {
+  width: 27%;
+}
+
+/* register-page : */
+
+ .register-section {
+  margin-top: 20vh;
+ }
+
+/* profile and apply pages */
+
+.intro-text-profile-apply {
+  height: 20vh;
+  min-height: 490px;
+}
+
+.apply-cards {
+  position: relative;
+  top: 100px;
+}
+
+/* services page */
+
+.services-card {
+  margin-bottom: 50px;
+}
+
+/* media queries */
+
+/* contact page */
+@media (min-width:1000px){
+.contact-card{
+  position: relative;
+  left: 30%;
+}
+}
+
+@media (max-width : 650px) {
+  .services-heading{
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+  .member-img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px){
+
+  .footer-contact{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

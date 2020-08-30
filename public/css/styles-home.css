@@ -1,0 +1,696 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/************ upper blue layer ************/
+.contact{
+  height: 58px;
+  padding: 10px 5% 0.02px 6%;
+  background-image: linear-gradient(to right, #febf63 40% ,#ede682);
+}
+.contact p{
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+.contact i {
+  margin: 0 10px;
+  color: #fff;
+}
+.contact span {
+  position: absolute;
+  right: 50px;
+  top: 6px;
+  font-size: 16px;
+}
+.contact span i{
+  margin-left: 40px;
+}
+@media (max-width: 650px){
+  
+  .contact{
+      padding-left: 1%;
+  }
+  .contact p{
+      font-size: 20px;
+  }
+  .contact i {
+      margin: 0 5px;
+  }
+  .contact span {
+      position: absolute;
+      right: -10px;
+      font-size: 14px;
+  }
+  .contact span i{
+      margin-left: 1px;
+  }
+}
+
+/*********navigation bar *************/
+
+.navigation{
+  padding: 20px 80px;
+}
+#navbar-content {
+padding-top: 20px;
+}
+
+#navbar-content ul li {
+margin: 0 20px;
+}
+#navbar-content ul li a {
+color: black;
+font-weight: 400;
+font-size: 17px;
+}
+.blue-button{
+background: #febf63;
+border-radius:3px;
+  display:inline-block;
+  border: 0;
+cursor:pointer;
+color:#ffffff;
+font-size:17px;
+  padding:10px 25px;	
+  position: relative;
+  bottom: 10px;
+  font-weight: 500;
+}
+
+@media(max-width : 537px){
+.logo-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+}
+@media(max-width : 440px){
+  .logo-img{
+      width: 140px;
+  }
+  }
+
+/*********** banner area **************/
+
+.banner-area{
+  padding: 4% 5%;
+
+}
+.header h1{
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header p{
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.tenant-link{
+  position: relative;
+  top: 15px;
+  font-size: 17px;
+  color: #00a8cc;
+  text-decoration: underline;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
+@media(max-width:600px){
+  .banner-img{
+      margin-top: 30px;
+  }
+}
+
+/********** list of cities-1 ***********/
+
+.cities-1{
+  margin: 20px 0;
+  padding: 1.5% 10%;
+  background-color: #ddf3f5;
+}
+.city-1{
+  margin: 0 37px;
+}
+.city-1 p{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/********** services **********/
+
+.services{
+  position: relative;
+  padding: 5px 10%;
+  margin-bottom: 50px;
+}
+.element-7{
+  width: 4%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.element-3{
+  width: 10%;
+  position: absolute;
+  right: 10px;
+  bottom: -140px;
+}
+@media(max-width: 770px){
+  .element-7{
+      width: 12%;
+  }
+  .element-3{
+      width: 30%;
+  }   
+}
+.services h1{
+  font-weight: 700;
+  font-size: 42px;
+  margin: 9% 0 9% 0;
+}
+.services div div  img{
+  width: 16%;
+}
+.services div div{
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.services div div h3{
+  margin-bottom: 30px;
+  font-size: 20px;
+  margin: 30px 0;
+  font-weight: 500;
+}
+.services div div p{
+  font-size: 14px;
+}
+.services div div span{
+  font-size: 16px;
+  font-weight: 500;
+}
+.service-1 img{
+  margin-bottom: 23px;
+}
+.service-3 img{
+  margin-bottom: 23px;
+
+}
+.service-3{
+  background-color: #ffe2bc;
+  border-radius: 2%;
+}
+.service-4 img{
+  margin-bottom: 13px;
+
+}
+
+/*********** About ************/
+
+.about{
+  padding: 7% 6.5%;
+}
+.about-us-img{
+  width: 100%;
+}
+.about-col{
+  padding: 0 50px;
+}
+.about-col h1{
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.about-col p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+.lmbtn{
+  padding: 10px 50px;
+}
+
+/********** features ***********/
+
+.features{
+  background-image: linear-gradient(to right, #00a8cc 10% ,#35B267);
+  padding: 3% 10% 1% 10%;
+}
+.feature{
+  margin: 20px 62px;
+}
+.feature img{
+  width: 75%;
+  margin-bottom: 50px;
+}
+.feature-1 img{
+  margin-bottom: 40px;
+}
+.feature-2 img{
+  width: 40%;
+  margin-bottom: 50px;
+}
+.feature-3 img{
+  margin-bottom: 47px;
+}
+.feature h1 {
+  color: #fff;
+  font-weight: 600;
+}
+.feature p{
+  color: #fff;
+  font-weight: 500;
+}
+
+/********** steps ***********/
+
+.steps{
+  position: relative;
+}
+.steps h1{
+margin: 80px 0;
+font-weight: 700;
+}
+.step{
+  padding: 5% 4%;
+}
+.step img{
+  width: 30%;
+  margin-bottom: 30px;
+}
+.step-2 img{
+ margin-bottom: 40px;
+}
+.step-5 img{
+  margin-bottom: 40px;
+}
+.step h3{
+  margin-bottom: 20px;
+}
+.blue-box {
+  background-color: #ffe2bc;
+
+}
+.element-6{
+  width: 3%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.element-5{
+  position: absolute;
+  width: 15%;
+  right: 15%;
+  top: -15px;
+}
+
+/*********** benefits *************/
+
+.benefits{
+  padding: 4% 8%;
+  position: relative;
+}
+.benefit{
+  margin-bottom: 20px;
+}
+.benefits h1{
+  margin-top: 40px;
+  margin-bottom: 90px;
+  font-weight: 700;
+}
+.benefit img{
+  width: 27%;
+  margin-bottom: 20px;
+}
+.benefit-2 img{
+  margin-bottom: 30px;
+}
+.benefit h3{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.benefit p{
+  line-height: 2;
+}
+.element-4{
+  width: 9%;
+  position: absolute;
+  top: 17%;
+  left: 0.5%;
+}
+
+/************ founders and advisors *************/
+
+.founders{
+  position: relative;
+  padding: 5% 10%;
+  background-image: linear-gradient(to bottom, #febf63 40% ,#ede682);
+}
+.founder h1{
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.founder h3{
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.founder p{
+  color: #fff;
+}
+.founder img{
+  width: 60%;
+}
+.founders hr{
+  border: 0.2px solid black;
+}
+.element-3-2{
+  width: 10%;
+  position: absolute;
+  right: 0.1%;
+  top: 10%;
+}
+.element-2{
+  width: 4%;
+  position: absolute;
+  left: 0;
+  top: 53%;
+}
+.fa-icons{
+  position: absolute;
+  top: 10%;
+}
+@media(max-width: 900px){
+  .fa-icons{
+      top: 5%;
+  }   
+}
+@media(max-width: 600px){
+  .fa-icons{
+      top: 5%;
+  }   
+}
+@media(max-width: 500px){
+  .fa-icons{
+      top: 0;
+  }   
+  .fa-icon{
+      margin-bottom: 10px;
+      font-size: 20px;
+  }
+}
+.fa-icon{
+  color: #fff;
+  width: 100%;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.advisor{
+  margin-bottom: 20px;
+}
+.advisory-board{
+  color: #fff;
+  padding: 5% 0;
+  font-weight: 700;
+}
+.advisor img{
+  width: 100%;
+}
+
+.advisor-3{
+  background-color: #393e46;
+}
+
+/************* testimonials **************/
+.testimonials{
+  background-color: #ddf3f5;
+  padding-bottom: 30px;
+}
+.five-stars{
+  padding: 4% 0;
+}
+.five-stars img{
+  width: 1.5%;
+}
+@media(max-width:600px){
+  .five-stars img{
+      width: 5%;
+  } 
+}
+.review{
+  padding: 0 22%;
+}
+.review p{
+  line-height: 2;
+  font-weight: 500;
+}
+.review h1{
+  font-weight: 700;
+}
+.review-img-1{
+  margin: 0 12px;
+  width: 9%;
+}
+.review-img-2{
+  margin: 0 12px;
+  width: 12%;
+}
+.review-img-3{
+  margin: 0 12px;
+  width: 9%;
+}
+
+/************ clients *************/
+
+.clients{
+  padding: 7% 5%;
+  position: relative;
+}
+.client{
+  margin-bottom: 30px;
+}
+.clients h1{
+  font-weight: 700;
+  margin-bottom: 7%;
+}
+.client img{
+  width: 80%;
+}
+.element-1{
+  width: 12%;
+  position: absolute;
+  left: 1%;
+  top: 20%;
+}
+
+/************ articles **************/
+
+.articles{
+  padding: 0 5%;
+}
+.article img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.article h3{
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.article p{
+  line-height: 2;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+.article p span{
+  color: #00a8cc ;
+  font-weight: 600;
+}
+
+/************ list of cities-2 ***************/
+
+.cities-2{
+  padding: 8% 7% 5% 7%;
+}
+.city{
+  margin: 20px;
+
+}
+.city button{
+  background-color: #eeeeee;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.city-a button{
+  background-image: linear-gradient(to right, #00a8cc 40% ,#35B267);
+color: #fff;
+}
+.map-image img{
+  width: 100%;
+  height: 600px;
+} 
+
+/************ contact-2 ************/
+
+.contact-2{
+  position: relative;
+  padding: 5% 7%;
+}
+.contact-2 h1{
+  margin-bottom: 7%;
+}
+.contact-form{
+  margin-bottom: 20px;
+}
+.contact-form textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5% 2%;
+  border: 2px solid black;
+  font-size: 20px;
+
+}
+.contact-form input{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5% 2%;
+  border: 2px solid black;
+  font-size: 20px;
+}
+.contact-details{
+  padding: 5%;
+  position: relative;
+}
+.contact-details p{
+  display: inline-block;
+}
+.contact-details img{
+  margin: 40px 30px;
+  width: 12%;
+}
+.phone-numbers{
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  top: 25px;
+  margin-bottom: 80px;
+}
+.phone-numbers p{
+  font-size: 25px;
+  font-weight: 600;}
+.email-address{
+  display: inline-block;
+  width: 70%;
+  margin-bottom: 80px;
+}
+.email-address p{
+  font-weight: 600;
+  font-size: 25px;
+}
+@media(max-width: 420px){
+  .email-address p{
+      position: relative;
+      right: 15px;
+  }   
+}
+.address{
+  display: inline-block;
+  width: 70%;
+}
+.address p{
+  font-weight: 600;
+  font-size: 25px;
+}
+.location img{
+  position: relative;
+  bottom: 50px;
+}
+.contact-img{
+  width: 15%;
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+}
+.contact-img-2{
+  position: absolute;
+  right: 0;
+  top: 20%;
+  width: 13%;
+}
+.element-9{
+  position: absolute;
+  width: 4%;
+  right: 0;
+  top: 7%;
+}
+.element-4-2{
+  position: absolute;
+  width: 9%;
+  left: 1%;
+  top: 10%;
+} 
+
+/*********** links **********8*/
+
+.links{
+  background-color: #323232;
+  color: #fff;
+  padding: 3% 5%;
+}
+
+.coulumn-1{
+  border-right: 1px solid #fff;
+  
+}
+.coulumn-1 img{
+  width: 80%;
+  margin: 15% 5% 7% 4%;
+  position: relative;
+  right: 8px;
+}
+.coulumn-1 .fa-icon-2{
+  font-size: 20px;
+  margin: 3%;
+
+}
+.contact-final h3{
+  margin-top: 30px;
+}
+.contact-icon{
+  margin-right: 20px;
+}
+.address-final p{
+  line-height: 2;
+}
+
+.coulumn {
+  padding: 6% 5%;
+}
+.coulumn-2 h3{
+  margin-bottom: 25px;
+}
+.coulumn p{
+  margin-bottom: 25px;
+
+}
+
+/*********** footer **************/
+
+.footer{
+  padding: 1% 0 1px 0; 
+  background-color: black;
+}
+.footer p{
+  color: #93b5e1;
+}

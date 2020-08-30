@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globalyzing</title>
+    <link rel="icon" href="images/favicon.ico" />
+      <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Notable&family=Piedra&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <!-- css style sheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+      <link rel="stylesheet" href="/css/styles-home.css">
+      <!-- bootsrap links -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </head>
+  <body> 
+<div class="container register-section">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <header class="card-header">
+            <h4 class="card-title mt-2">Forgot Password</h4>
+          </header>
+          <article class="card-body">
+            <form class="" action="/reset/<%=token%>" method="POST">
+              <div class="form-group">
+                <label>Enter New Password</label>
+                <input type="password" class="form-control" placeholder="" name="password">
+              </div> <!-- form-group end.// -->
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Submit </button>
+              </div> <!-- form-group// -->
+            </form>
+          </article> <!-- card-body end .// -->
+          <div class="border-top card-body text-center"> 
+            <br>
+            <br>
+            <br>
+
+          </div>
+        </div> <!-- card.// -->
+      </div> <!-- col.//-->
+  
+    </div> <!-- row.//-->
+  
+  
+  </div>
+  <!--container end.//-->
+  
+  <br><br />
+  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <%- include('partials/footer')  %>

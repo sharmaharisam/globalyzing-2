@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Globalyzing</title>
+    <link rel="icon" href="images/favicon.ico" />
+      <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Notable&family=Piedra&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+        <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <!-- css style sheets -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/css/styles-home.css">
+      <link rel="stylesheet" href="/css/styles-form.css">
+
+      <!-- bootsrap links -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+  </head>
+  <body> 
+    <br><br>
+    <div class="text-center">
+      <img src="images/logo.jpeg" class="logo-img" alt="">
+      </div>
+<!-- MultiStep Form -->
+<center>
+<div class="row text-center main-div ">
+  <script>
+    if(window.innerWidth<1000 && window.innerWidth>750 ){
+    $(".main-div").addClass("justify-content-center");
+    }
+  </script>
+  <div class="col-md-6 col-md-offset-3">
+      <form id="msform" class="" enctype="multipart/form-data" action="/profile" method="POST">
+          <!-- progressbar -->
+          <ul id="progressbar">
+              <li class="active">About</li>
+              <li>Academic Details</li>
+              <li>Upload CV</li>
+          </ul>
+          <!-- fieldsets -->
+          <fieldset>
+              <h2 class="fs-title">Personal Details</h2>
+              <h3 class="fs-subtitle">Please Tell Us More About Yourself</h3>
+              <h3 class="text-left">First Name :</h3>
+              <input  type="text" name="firstName" value="<%= user.firstName %>"/>
+              <h3 class="text-left">Last Name :</h3>
+              <input type="text" name="lastName" value="<%= user.lastName %>"/>
+              <h3 class="text-left">Mobile Number :</h3>
+              <input type="number" name="phone" value="<%= user.phone %>"/>
+              <a href="/logout"><input type="button" name="logout" class=" previous action-button-previous" value="Logout"/></a>
+              <input type="button" name="next" class="next action-button" value="Next"/>
+          </fieldset>
+          <fieldset>
+              <h2 class="fs-title">Academic Details</h2>
+              <h3 class="fs-subtitle">Please Fill Up Your Academic Details </h3>
+              <h3 class="text-left">Full Name Of College/University :</h3>
+              <input type="text" name="college" value="<%= user.college %>"/>
+              <h3 class="text-left">Department/Branch Of Study :</h3>
+              <input type="text" name="department" value="<%= user.department %>"/>
+              <h3 class="text-left">Year Of Study :</h3>
+              <input type="number" name="year" value="<%= user.year %>"/>
+              <h3 class="text-left">C.G.P.A as Per Latest Transcript :</h3>
+              <input type="text" name="cgpa" value="<%= user.cgpa %>"/>
+              <a href="/logout"><input type="button" name="logout" class=" previous action-button-previous" value="Logout"/></a>
+              <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+              <input type="button" name="next" class="next action-button" value="Next"/>
+
+          </fieldset>
+          <fieldset>
+              <h2 class="fs-title">Upload CV</h2>
+              <h3 class="fs-subtitle">Note that you can skip this step for now by clicking on the submit buton,however kindly make 
+                sure you upload it before appyling for a project to increase your chances of getting selected.</h3>
+              <label for="cv"><h4>Your C.V :</h4></label>
+              <input type="file"  enctype="multipart/form-data" name="cv" value="Your C.V.">
+              <a href="/logout"><input type="button" name="logout" class=" previous action-button-previous" value="Logout"/></a>
+              <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+              <br>
+              <button type="submit" class="btn btn-lg btn-success btn-block">Submit</button>
+
+          </fieldset>
+      </form>
+  </div>
+</div>
+</center>
+<!-- /.MultiStep Form -->
+<script src="multi-form.js" charset="utf-8"></script>
+</body>
+</html>
